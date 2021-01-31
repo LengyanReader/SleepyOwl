@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="zh-Hans">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Winter Views Around Linköping | this is the title</title>
+    <title>Winter Views Around Linköping | Sleepy Owl</title>
 
     
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
 
 
 
@@ -24,12 +26,15 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lengyanreader.github.io/sleepyowl/posts/winter-views-around-link%C3%B6ping/" />
+<meta property="og:image" content="https://lengyanreader.github.io/sleepyowl/"/>
 <meta property="article:published_time" content="2021-01-31T22:43:16+01:00" />
 <meta property="article:modified_time" content="2021-01-31T22:43:16+01:00" />
 
 
 
-<meta name="twitter:card" content="summary"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lengyanreader.github.io/sleepyowl/"/>
+
 <meta name="twitter:title" content="Winter Views Around Linköping"/>
 <meta name="twitter:description" content=""/>
 
@@ -46,22 +51,55 @@
   }
 
   
-
+  a {
+    color: seagreen !important;
+  }
   
 
   
+  .inverted a,
+  .inverted a:hover {
+     color: darkseagreen !important;
+  }
+  
 
+  
+  body.default {
+    
+    background-color: #ccc;
+    
+
+    
+    background-image: url(/me/background.jpg);
+    
+  }
+  
+
+  
+  body.dark {
+    
+    background-color: black;
+    
+
+    
+    background-image: url(/me/background-dark.jpg);
+    
+  }
   
 </style>
 
     
 
 
+  
+    <link rel="stylesheet" data-highlight href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/gruvbox-light.min.css" />
+  
 
 
 
 
-    
+
+    <link rel="stylesheet" href="/sleepyowl/css/custom.css" />
   </head>
 
   <body class="default">
@@ -78,6 +116,10 @@
     <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
   </div>
   
+  <div class="item">
+    <i class="large link search icon" onclick="toggleSearch()"></i>
+  </div>
+  
 </nav>
 
     <div class="flip-container">
@@ -88,7 +130,11 @@
 <div class="ui centered relaxed grid dream-grid">
   <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single" id="dream-save-post-as-img">
     
-    <section class="ui top attached segment">
+    <section class="ui top attached segment cover">
+      <div class="cover-img" style="background-image: url(/img/cover.jpg);"></div>
+    </section>
+    
+    <section class="ui attached segment">
       <header>
         <h1 class="ui large header">
           Winter Views Around Linköping
@@ -116,6 +162,7 @@
 
       <article class="main"><p>I&rsquo;ve been here in Linköping for not a short time, it is small place, even its central city zone is just like a big country side place in China. For some reason, I came to this place. To some extent, I enjoy the relatively peaceful atmosphere here. Due to the covid-19&rsquo;s  influence, many good places can&rsquo;t be visited. What I&rsquo;ve done mostly these days is merely walking. Walking is not bad, during slow walking time, I took the good chance to feel and sense the fresh air here as well as enjoy the simple and cool views I met. .</p>
 <p>Below are photos I took using my old phone, so the quality is hard to be ensure, please don&rsquo;t laugh at my dumb photographing level.</p>
+<p><img src="https://pbs.twimg.com/media/EtGGr8PXcA0GF3z?format=jpg&amp;name=large" alt="Image"></p>
 <p><img src="/home/data/.config/Typora/typora-user-images/image-20210131225325663.png" alt="image-20210131225325663"></p>
 <p><img src="/home/data/.config/Typora/typora-user-images/image-20210131225400423.png" alt="image-20210131225400423"></p>
 <p><img src="/home/data/.config/Typora/typora-user-images/image-20210131225419631.png" alt="image-20210131225419631"></p>
@@ -167,6 +214,16 @@
     
     
     
+      <div class="ui segment utterances-comments" data-html2canvas-ignore>
+        <script src="https://utteranc.es/client.js"
+          repo="g1eny0ung/g1eny0ung.github.io"
+          issue-term="og:title"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+        </script>
+      </div>
+    
 
     
 
@@ -179,13 +236,15 @@
   <section class="ui top attached center aligned segment">
     <div class="ui small circular image">
       
+        <img src="/sleepyowl/me/yy.jpg">
+      
     </div>
 
     
     <h1 class="ui medium header">
     
-      &#39;s blog
-      <div class="sub header" style="margin-top: 0.5rem;"></div>
+      Sleepy Owl&#39;s meditation
+      <div class="sub header" style="margin-top: 0.5rem;">佛語諦實，決定不虛-The Words of Buddha are ever truthful without fail</div>
     
     </h1>
     
@@ -302,6 +361,42 @@
   <section class="ui attached segment header-socials">
     <nav class="ui secondary menu dream-menu dream-socials">
   
+    <div class="item">
+      <a href="/sleepyowl/index.xml">
+        <i class=" rss square icon" title="RSS"></i>
+      </a>
+    </div>
+  
+  
+    <div class="item">
+      <a href="mailto:nanyudong@gmail.com">
+        <i class=" mail icon" title="Email"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://twitter.com/Dong_Yunan" target="_blank">
+        <i class=" twitter icon" title="Twitter"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://facebook.com/Yunan%20Tung" target="_blank">
+        <i class=" facebook icon" title="Facebook"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://instagram.com/Yunan%20Dong" target="_blank">
+        <i class=" instagram icon" title="Instagram"></i>
+      </a>
+    </div>
   
 
   
@@ -309,11 +404,11 @@
   
 
   
-
-  
-
-  
-
+    <div class="item">
+      <a href="https://github.com/LengyanReader" target="_blank">
+        <i class=" github icon" title="GitHub"></i>
+      </a>
+    </div>
   
 
   
@@ -325,7 +420,7 @@
 
   <section class="ui bottom attached center aligned segment">
     
-      <p>© 2021 this is the title</p>
+      <p>© 2021 Sleepy Owl</p>
     
 
     <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
@@ -369,6 +464,42 @@
       <div class="ui bottom attached segment">
         <nav class="ui secondary menu dream-menu dream-socials">
   
+    <div class="item">
+      <a href="/sleepyowl/index.xml">
+        <i class="large rss square icon" title="RSS"></i>
+      </a>
+    </div>
+  
+  
+    <div class="item">
+      <a href="mailto:nanyudong@gmail.com">
+        <i class="large mail icon" title="Email"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://twitter.com/Dong_Yunan" target="_blank">
+        <i class="large twitter icon" title="Twitter"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://facebook.com/Yunan%20Tung" target="_blank">
+        <i class="large facebook icon" title="Facebook"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://instagram.com/Yunan%20Dong" target="_blank">
+        <i class="large instagram icon" title="Instagram"></i>
+      </a>
+    </div>
   
 
   
@@ -376,11 +507,11 @@
   
 
   
-
-  
-
-  
-
+    <div class="item">
+      <a href="https://github.com/LengyanReader" target="_blank">
+        <i class="large github icon" title="GitHub"></i>
+      </a>
+    </div>
   
 
   
@@ -406,10 +537,10 @@
     </div>
 
     <script>
-  window.defaultDark =  null 
-  window.backgroundDark =  null 
-  window.backgroundImageDark =  null 
-  window.darkNav =  null 
+  window.defaultDark =  true 
+  window.backgroundDark = "black"
+  window.backgroundImageDark = "/me/background-dark.jpg"
+  window.darkNav =  true 
   window.hasTwitterEmbed =  null 
 
   if (window.hasTwitterEmbed) {
@@ -445,8 +576,56 @@
 <script src="/sleepyowl/js/post.js"></script>
 
 
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script>
+
+  
+    
+      <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/ocaml.min.js"></script>
+     
+  
+
+  <script>
+  hljs.initHighlightingOnLoad()
+  setHighlightTheme()
+
+  function setHighlightTheme() {
+    var isDark = localStore.getItem('hugo-theme-dream-is-dark')
+    isDark = isDark ? isDark : window.defaultDark ? 'y' : isDark
+
+    var lightTheme = "gruvbox-light"
+    var darkTheme = "gruvbox-dark"
+    var theme = isDark === 'y' ? darkTheme : lightTheme
+
+    $('link[data-highlight]').attr('href', 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/' + theme + '.min.css')
+    $('pre').css('background', isDark === 'y' ? '#333' : '')
+  }
+</script>
 
 
+
+
+
+    
+      <div class="ui inverted segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="Search" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('https:\/\/lengyanreader.github.io\/sleepyowl\//index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: true,
+      })
+    })
+  })
+</script>
+<script src="/sleepyowl/js/search.js"></script>
 
     
 

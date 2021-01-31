@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="zh-Hans">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>jottings | this is the title</title>
+    <title>jottings | Sleepy Owl</title>
 
     
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 
 
-<meta name="author" content="" />
+
+<meta name="author" content="Yunan" />
 <meta name="description" content="" />
 
 
@@ -24,11 +26,14 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://lengyanreader.github.io/sleepyowl/categories/jottings/" />
+<meta property="og:image" content="https://lengyanreader.github.io/sleepyowl/"/>
 <meta property="og:updated_time" content="2021-01-31T22:43:16+01:00" />
 
 
 
-<meta name="twitter:card" content="summary"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lengyanreader.github.io/sleepyowl/"/>
+
 <meta name="twitter:title" content="jottings"/>
 <meta name="twitter:description" content=""/>
 
@@ -45,16 +50,45 @@
   }
 
   
-
+  a {
+    color: seagreen !important;
+  }
   
 
   
+  .inverted a,
+  .inverted a:hover {
+     color: darkseagreen !important;
+  }
+  
 
+  
+  body.default {
+    
+    background-color: #ccc;
+    
+
+    
+    background-image: url(/me/background.jpg);
+    
+  }
+  
+
+  
+  body.dark {
+    
+    background-color: black;
+    
+
+    
+    background-image: url(/me/background-dark.jpg);
+    
+  }
   
 </style>
 
      
-    
+    <link rel="stylesheet" href="/sleepyowl/css/custom.css" />
   </head>
 
   <body class="default">
@@ -71,6 +105,10 @@
     <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
   </div>
   
+  <div class="item">
+    <i class="large link search icon" onclick="toggleSearch()"></i>
+  </div>
+  
 </nav>
 
     <div class="flip-container">
@@ -84,13 +122,15 @@
   <section class="ui top attached center aligned segment">
     <div class="ui small circular image">
       
+        <img src="/sleepyowl/me/yy.jpg">
+      
     </div>
 
     
     <h1 class="ui medium header">
     
-      &#39;s blog
-      <div class="sub header" style="margin-top: 0.5rem;"></div>
+      Sleepy Owl&#39;s meditation
+      <div class="sub header" style="margin-top: 0.5rem;">佛語諦實，決定不虛-The Words of Buddha are ever truthful without fail</div>
     
     </h1>
     
@@ -207,6 +247,42 @@
   <section class="ui attached segment header-socials">
     <nav class="ui secondary menu dream-menu dream-socials">
   
+    <div class="item">
+      <a href="/sleepyowl/index.xml">
+        <i class=" rss square icon" title="RSS"></i>
+      </a>
+    </div>
+  
+  
+    <div class="item">
+      <a href="mailto:nanyudong@gmail.com">
+        <i class=" mail icon" title="Email"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://twitter.com/Dong_Yunan" target="_blank">
+        <i class=" twitter icon" title="Twitter"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://facebook.com/Yunan%20Tung" target="_blank">
+        <i class=" facebook icon" title="Facebook"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://instagram.com/Yunan%20Dong" target="_blank">
+        <i class=" instagram icon" title="Instagram"></i>
+      </a>
+    </div>
   
 
   
@@ -214,11 +290,11 @@
   
 
   
-
-  
-
-  
-
+    <div class="item">
+      <a href="https://github.com/LengyanReader" target="_blank">
+        <i class=" github icon" title="GitHub"></i>
+      </a>
+    </div>
   
 
   
@@ -230,7 +306,7 @@
 
   <section class="ui bottom attached center aligned segment">
     
-      <p>© 2021 this is the title</p>
+      <p>© 2021 Sleepy Owl</p>
     
 
     <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
@@ -313,6 +389,42 @@
       <div class="ui bottom attached segment">
         <nav class="ui secondary menu dream-menu dream-socials">
   
+    <div class="item">
+      <a href="/sleepyowl/index.xml">
+        <i class="large rss square icon" title="RSS"></i>
+      </a>
+    </div>
+  
+  
+    <div class="item">
+      <a href="mailto:nanyudong@gmail.com">
+        <i class="large mail icon" title="Email"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://twitter.com/Dong_Yunan" target="_blank">
+        <i class="large twitter icon" title="Twitter"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://facebook.com/Yunan%20Tung" target="_blank">
+        <i class="large facebook icon" title="Facebook"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://instagram.com/Yunan%20Dong" target="_blank">
+        <i class="large instagram icon" title="Instagram"></i>
+      </a>
+    </div>
   
 
   
@@ -320,11 +432,11 @@
   
 
   
-
-  
-
-  
-
+    <div class="item">
+      <a href="https://github.com/LengyanReader" target="_blank">
+        <i class="large github icon" title="GitHub"></i>
+      </a>
+    </div>
   
 
   
@@ -374,10 +486,10 @@
     </div>
 
     <script>
-  window.defaultDark =  null 
-  window.backgroundDark =  null 
-  window.backgroundImageDark =  null 
-  window.darkNav =  null 
+  window.defaultDark =  true 
+  window.backgroundDark = "black"
+  window.backgroundImageDark = "/me/background-dark.jpg"
+  window.darkNav =  true 
   window.hasTwitterEmbed =  null 
 
   if (window.hasTwitterEmbed) {
@@ -413,6 +525,28 @@
 <script src="/sleepyowl/js/masonry.pkgd.min.js"></script>
 <script src="/sleepyowl/js/grid.js"></script>
 
+
+    
+      <div class="ui inverted segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="Search" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('https:\/\/lengyanreader.github.io\/sleepyowl\//index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: true,
+      })
+    })
+  })
+</script>
+<script src="/sleepyowl/js/search.js"></script>
 
     
 
