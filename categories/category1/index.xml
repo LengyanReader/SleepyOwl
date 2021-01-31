@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>category1 on this is the title</title>
-    <link>https://lengyanreader.github.io/categories/category1/</link>
+    <link>https://lengyanreader.github.io/sleepyowl/categories/category1/</link>
     <description>Recent content in category1 on this is the title</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jan 2021 20:12:11 +0100</lastBuildDate><atom:link href="https://lengyanreader.github.io/categories/category1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 20:12:11 +0100</lastBuildDate><atom:link href="https://lengyanreader.github.io/sleepyowl/categories/category1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://lengyanreader.github.io/posts/my-first-post/</link>
+      <link>https://lengyanreader.github.io/sleepyowl/posts/my-first-post/</link>
       <pubDate>Sun, 31 Jan 2021 20:12:11 +0100</pubDate>
       
-      <guid>https://lengyanreader.github.io/posts/my-first-post/</guid>
+      <guid>https://lengyanreader.github.io/sleepyowl/posts/my-first-post/</guid>
       <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
     </item>
     
