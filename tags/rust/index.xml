@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on Sleepy Owl</title>
+    <link>https://lengyanreader.github.io/sleepyowl/tags/rust/</link>
+    <description>Recent content in Rust on Sleepy Owl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Tue, 02 Feb 2021 23:18:59 +0100</lastBuildDate><atom:link href="https://lengyanreader.github.io/sleepyowl/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust能力提升教程</title>
+      <link>https://lengyanreader.github.io/sleepyowl/posts/rust-tutorial/</link>
+      <pubDate>Tue, 02 Feb 2021 23:18:59 +0100</pubDate>
+      
+      <guid>https://lengyanreader.github.io/sleepyowl/posts/rust-tutorial/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

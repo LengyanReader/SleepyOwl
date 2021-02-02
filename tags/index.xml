@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Sleepy Owl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sun, 31 Jan 2021 22:43:16 +0100</lastBuildDate><atom:link href="https://lengyanreader.github.io/sleepyowl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 23:18:59 +0100</lastBuildDate><atom:link href="https://lengyanreader.github.io/sleepyowl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming</title>
+      <link>https://lengyanreader.github.io/sleepyowl/tags/programming/</link>
+      <pubDate>Tue, 02 Feb 2021 23:18:59 +0100</pubDate>
+      
+      <guid>https://lengyanreader.github.io/sleepyowl/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rust</title>
+      <link>https://lengyanreader.github.io/sleepyowl/tags/rust/</link>
+      <pubDate>Tue, 02 Feb 2021 23:18:59 +0100</pubDate>
+      
+      <guid>https://lengyanreader.github.io/sleepyowl/tags/rust/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>picture</title>
       <link>https://lengyanreader.github.io/sleepyowl/tags/picture/</link>
