@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>中文技术教程 on Sleepy Owl</title>
-    <link>https://lengyanreader.github.io/sleepyowl/categories/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</link>
-    <description>Recent content in 中文技术教程 on Sleepy Owl</description>
+    <title>编程 on Sleepy Owl</title>
+    <link>https://lengyanreader.github.io/sleepyowl/tags/%E7%BC%96%E7%A8%8B/</link>
+    <description>Recent content in 编程 on Sleepy Owl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Tue, 02 Feb 2021 23:18:59 +0100</lastBuildDate><atom:link href="https://lengyanreader.github.io/sleepyowl/categories/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 23:18:59 +0100</lastBuildDate><atom:link href="https://lengyanreader.github.io/sleepyowl/tags/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>微信公众号文章</title>
       <link>https://lengyanreader.github.io/sleepyowl/posts/mywechatcooperation/</link>
